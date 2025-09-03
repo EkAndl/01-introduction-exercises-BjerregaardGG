@@ -16,7 +16,7 @@ console.log(greetings.message);
 
 const myObject = {
     name: "Oliver",
-    age: "26"
+    age: 26
 }
 
 console.log(`My name is ${myObject.name} and my age is ${myObject.age}`)

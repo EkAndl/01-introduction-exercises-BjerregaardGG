@@ -24,7 +24,11 @@ const increment = 1;
 // You cannot touch the first or the second line
 
 const newYear = parseInt(year) + increment;
+const newYear2 = Number(year) + increment;
+const newYear3 = +year + increment; 
 console.log(newYear);
+console.log(newYear2);
+console.log(newYear3);
 
 
 // --------------------------------------

@@ -7,8 +7,10 @@ const numberTwo = "2.30";
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
 
-const twoNumbers = parseFloat(numberOne) + parseFloat(numberTwo);
-console.log(twoNumbers);
+const twoNumbersFloat = parseFloat(numberOne) + parseFloat(numberTwo);
+
+console.log(twoNumbersFloat);
+
 
 // --------------------------------------
 // Exercise 4 - Add the numbers and the total with 2 decimals
@@ -54,9 +56,11 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
-const capitalizeJS = fact.slice(0,17) + fact.slice(17, 18).toUpperCase() + fact.slice(18);
+const capitalizeJS = fact.slice(0, 17) + fact.slice(17, 18).toUpperCase() + fact.slice(18);
+const capitalizeJS2 = fact.replace("j", "J")
 
 console.log(capitalizeJS);
+console.log(capitalizeJS2)
 
 
 

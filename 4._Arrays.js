@@ -17,8 +17,13 @@ const friends = [];
 
 // What a lonely array. Add at least 3 friend objects to it.  
 
-friends.push({firstWord: "hej"}, {secondWord: "med"}, {thirdWord: "dig"});
-console.log(friends);
+friends.push(
+    { name: "Anna", age: 25, hobby: "reading" },
+    { name: "Jonas", age: 28, hobby: "football" },
+    { name: "Maria", age: 22, hobby: "gaming" }
+  );
+
+  console.log(friends)
 
 // --------------------------------------
 // Exercise 3 - Get the index of first occurance of that value. 
@@ -69,7 +74,7 @@ const lettersExpanded = ["a", "b", "c", "d", "e", "f", "g", "h"];
 
 // log every second char in the array starting from b
 
-for (let i = 1; i<lettersExpanded.length; i+=2){
+for (let i = 1; i < lettersExpanded.length; i += 2){
     console.log(lettersExpanded[i]);
 }
 
@@ -84,10 +89,10 @@ const discardedNumbers = [];
 // log the element if the number is above 6 or below 0
 // else push them to the array discardedNumbers
 
-for (let i=0; i<numbers.length; i++){
-    if(numbers[i] > 6){
+for (let i=0; i < numbers.length; i++){
+    if (numbers[i] > 6){
         console.log(numbers[i]);
-    }else{
+    } else {
         discardedNumbers.push(numbers[i]);
     }
 }
